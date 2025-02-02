@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .delay-1s {
+    animation-delay: 1s;
+  }
+  
+  .delay-2s {
+    animation-delay: 2s;
+  }
+  
+  .delay-3s {
+    animation-delay: 3s;
+  }
+  
+  .delay-4s {
+    animation-delay: 4s;
+  }
+
+  /* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#262626;
+}
+
+/* Text Selection Color */
+::selection {
+  background: #c0f0c0; /* Green */
+  color: #ffffff; /* White Text */
+}
+
+  
